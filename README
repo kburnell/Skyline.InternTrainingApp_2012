@@ -1,0 +1,15 @@
+Real World app to fully overwhelm the 2012 class of interns ;)
+Tech:
+	- ASP.NET MVC 4
+	- jQuery
+	- HTML 5
+	- Entity Framework Code First
+
+Methodologies:
+	- Agile
+	- Test Driven Development
+	- Domain/Model Driven Development
+
+Project Description:
+	- Movie collection organizer with IMDB integration
+	- Time permitting integration into a service to get current movie times/locations
