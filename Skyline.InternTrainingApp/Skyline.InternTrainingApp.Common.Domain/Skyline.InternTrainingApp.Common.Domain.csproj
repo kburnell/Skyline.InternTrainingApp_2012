@@ -42,8 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClasses\DomainBase.cs" />
+    <Compile Include="Genre.cs" />
     <Compile Include="Interfaces\IValidatableDomain.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITA.Common.Enumerations\ITA.Common.Enumerations.csproj">
+      <Project>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</Project>
+      <Name>ITA.Common.Enumerations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

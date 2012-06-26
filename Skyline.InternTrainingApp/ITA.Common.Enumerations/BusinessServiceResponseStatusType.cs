@@ -1,4 +1,4 @@
-﻿namespace Skyline.InternTrainingApp.Common.Enumerations {
+﻿namespace ITA.Common.Enumerations {
 
     public enum BusinessServiceResponseStatusType {
 

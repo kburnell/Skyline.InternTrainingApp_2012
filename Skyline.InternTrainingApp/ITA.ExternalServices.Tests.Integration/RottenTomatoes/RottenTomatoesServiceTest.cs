@@ -30,7 +30,7 @@ namespace ITA.ExternalServices.Tests.Integration.RottenTomatoes {
         [TestMethod]
         public void GetByTitle_ShouldDoSomething() {
             //Arrange
-            string title = "Raging Bull";
+            string title = "Reservoir Dogs";
             //Act
             _service.GetByTitle(title);
             //Assert

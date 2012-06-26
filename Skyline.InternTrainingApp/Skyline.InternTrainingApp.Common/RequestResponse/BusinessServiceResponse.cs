@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Skyline.InternTrainingApp.Common.Enumerations;
+using ITA.Common.Enumerations;
 
 namespace Skyline.InternTrainingApp.Common.RequestResponse {
 

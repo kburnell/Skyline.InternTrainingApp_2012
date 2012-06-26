@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{62EDBB85-100D-4205-9C60-7454F761CBC2}</ProjectGuid>
+    <ProjectGuid>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Skyline.InternTrainingApp.Data</RootNamespace>
-    <AssemblyName>Skyline.InternTrainingApp.Data</AssemblyName>
+    <RootNamespace>ITA.Common.Enumerations</RootNamespace>
+    <AssemblyName>ITA.Common.Enumerations</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,13 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,27 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MovieRepository.cs" />
-    <Compile Include="PersonRepository.cs" />
+    <Compile Include="BusinessServiceResponseStatusType.cs" />
+    <Compile Include="PersonType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ITA.Common.Enumerations\ITA.Common.Enumerations.csproj">
-      <Project>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</Project>
-      <Name>ITA.Common.Enumerations</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
-      <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
-      <Name>Skyline.InternTrainingApp.Common.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj">
-      <Project>{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}</Project>
-      <Name>Skyline.InternTrainingApp.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

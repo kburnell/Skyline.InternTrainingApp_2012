@@ -37,6 +37,10 @@
       <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Should">
+      <HintPath>..\packages\Should.1.1.12.0\lib\Should.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core">
@@ -51,6 +55,8 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MovieRepositoryTest.cs" />
+    <Compile Include="PersonRepositoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDataContext\ITADataContextIntegrationTestInitializer.cs" />
   </ItemGroup>
@@ -59,9 +65,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ITA.Common.Enumerations\ITA.Common.Enumerations.csproj">
+      <Project>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</Project>
+      <Name>ITA.Common.Enumerations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
+      <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
+      <Name>Skyline.InternTrainingApp.Common.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj">
       <Project>{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}</Project>
       <Name>Skyline.InternTrainingApp.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skyline.InternTrainingApp.Data\Skyline.InternTrainingApp.Data.csproj">
+      <Project>{62EDBB85-100D-4205-9C60-7454F761CBC2}</Project>
+      <Name>Skyline.InternTrainingApp.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

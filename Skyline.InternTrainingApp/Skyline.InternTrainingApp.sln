@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITA.ExternalServices.Tests.Integration", "ITA.ExternalServices.Tests.Integration\ITA.ExternalServices.Tests.Integration.csproj", "{DDE34A3A-1D10-467A-99A2-038153D630A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITA.Common.Enumerations", "ITA.Common.Enumerations\ITA.Common.Enumerations.csproj", "{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Skyline.InternTrainingApp.vsmdi
@@ -89,6 +91,10 @@ Global
 		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

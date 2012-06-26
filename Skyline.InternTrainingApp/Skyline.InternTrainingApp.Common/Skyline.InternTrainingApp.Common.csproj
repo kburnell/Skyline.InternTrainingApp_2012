@@ -53,8 +53,9 @@
     <Compile Include="DataContext\ITADataContext.cs" />
     <Compile Include="DataContext\ITADataContextBase.cs" />
     <Compile Include="DataContext\ITADataContextDevInitializer.cs" />
-    <Compile Include="Enumerations\BusinessServiceResponseStatusType.cs" />
     <Compile Include="Interfaces\Business\IBusinessService.cs" />
+    <Compile Include="Interfaces\Data\IMovieRepository.cs" />
+    <Compile Include="Interfaces\Data\IPersonRepository.cs" />
     <Compile Include="Interfaces\Data\IRepository.cs" />
     <Compile Include="RequestResponse\BusinessServiceResponse.cs" />
     <Compile Include="RequestResponse\BusinessServiceItemResponse.cs" />
@@ -65,6 +66,10 @@
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ITA.Common.Enumerations\ITA.Common.Enumerations.csproj">
+      <Project>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</Project>
+      <Name>ITA.Common.Enumerations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
       <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
       <Name>Skyline.InternTrainingApp.Common.Domain</Name>

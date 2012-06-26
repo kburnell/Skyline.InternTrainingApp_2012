@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Skyline.InternTrainingApp.Common.Domain;
 
 namespace Skyline.InternTrainingApp.Common.DataContext {
 
@@ -16,7 +17,9 @@ namespace Skyline.InternTrainingApp.Common.DataContext {
 
         #region << Public Properties >>
 
-         
+        public DbSet<Person> People { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<Movie> Movies { get; set; }
 
         #endregion
 
