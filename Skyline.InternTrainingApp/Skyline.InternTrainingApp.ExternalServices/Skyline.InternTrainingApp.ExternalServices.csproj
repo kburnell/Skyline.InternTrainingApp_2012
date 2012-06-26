@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{915116F4-CBD5-4087-BA16-880233396B60}</ProjectGuid>
+    <ProjectGuid>{77E56F48-65D4-4D6A-91C8-A07A6B73599D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Skyline.InternTrainingApp.Common.Domain</RootNamespace>
-    <AssemblyName>Skyline.InternTrainingApp.Common.Domain</AssemblyName>
+    <RootNamespace>Skyline.InternTrainingApp.ExternalServices</RootNamespace>
+    <AssemblyName>Skyline.InternTrainingApp.ExternalServices</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,8 +32,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClasses\DomainBase.cs" />
-    <Compile Include="Interfaces\IValidatableDomain.cs" />
+    <Compile Include="RottenTomatoes\RottenTomatoesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj">
+      <Project>{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}</Project>
+      <Name>Skyline.InternTrainingApp.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

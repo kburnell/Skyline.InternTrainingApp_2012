@@ -34,7 +34,11 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
@@ -44,17 +48,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClasses\RepositoryBase.cs" />
     <Compile Include="DataContext\ITADataContextProdInitializer.cs" />
     <Compile Include="DataContext\ITADataContext.cs" />
     <Compile Include="DataContext\ITADataContextBase.cs" />
     <Compile Include="DataContext\ITADataContextDevInitializer.cs" />
+    <Compile Include="Enumerations\BusinessServiceResponseStatusType.cs" />
+    <Compile Include="Interfaces\Business\IBusinessService.cs" />
+    <Compile Include="Interfaces\Data\IRepository.cs" />
+    <Compile Include="RequestResponse\BusinessServiceResponse.cs" />
+    <Compile Include="RequestResponse\BusinessServiceItemResponse.cs" />
+    <Compile Include="RequestResponse\BusinessServiceListResponse.cs" />
+    <Compile Include="Utility\DependencyResolver.cs" />
+    <Compile Include="Interfaces\ExternalServices\IRottenTomatoesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
       <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
       <Name>Skyline.InternTrainingApp.Common.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

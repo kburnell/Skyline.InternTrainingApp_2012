@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Data.Tests.Integration", "Skyline.InternTrainingApp.Data.Tests.Integration\Skyline.InternTrainingApp.Data.Tests.Integration.csproj", "{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.ExternalServices", "Skyline.InternTrainingApp.ExternalServices\Skyline.InternTrainingApp.ExternalServices.csproj", "{77E56F48-65D4-4D6A-91C8-A07A6B73599D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITA.ExternalServices.Tests.Integration", "ITA.ExternalServices.Tests.Integration\ITA.ExternalServices.Tests.Integration.csproj", "{DDE34A3A-1D10-467A-99A2-038153D630A8}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Skyline.InternTrainingApp.vsmdi
@@ -77,6 +81,14 @@ Global
 		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E56F48-65D4-4D6A-91C8-A07A6B73599D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E56F48-65D4-4D6A-91C8-A07A6B73599D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E56F48-65D4-4D6A-91C8-A07A6B73599D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E56F48-65D4-4D6A-91C8-A07A6B73599D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE34A3A-1D10-467A-99A2-038153D630A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,5 +101,6 @@ Global
 		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
 		{44A4E914-033B-41F6-967F-7172BD768990} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
 		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656} = {DB2B984D-E2D3-40E4-8126-65AD84820B97}
+		{DDE34A3A-1D10-467A-99A2-038153D630A8} = {DB2B984D-E2D3-40E4-8126-65AD84820B97}
 	EndGlobalSection
 EndGlobal
