@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Common", "Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj", "{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Data", "Skyline.InternTrainingApp.Data\Skyline.InternTrainingApp.Data.csproj", "{62EDBB85-100D-4205-9C60-7454F761CBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.UI.Web", "Skyline.InternTrainingApp.UI.Web\Skyline.InternTrainingApp.UI.Web.csproj", "{16AC89D2-7095-463F-A55C-9B422B765C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Business", "Skyline.InternTrainingApp.Business\Skyline.InternTrainingApp.Business.csproj", "{DD39041E-1682-406A-853C-672FBD39BE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Common.Domain", "Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj", "{915116F4-CBD5-4087-BA16-880233396B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92EBDE57-ABD6-4CA3-B187-5410743277D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{E9030B52-2D0A-4AAD-B966-0A4F26494D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{DB2B984D-E2D3-40E4-8126-65AD84820B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Business.Tests.Unit", "Skyline.InternTrainingApp.Business.Tests.Unit\Skyline.InternTrainingApp.Business.Tests.Unit.csproj", "{4DAD85D4-747C-433E-BD98-C75A08C42A40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E0F0FEB-343C-4CA2-A5C8-29FE3570EFC3}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Skyline.InternTrainingApp.vsmdi = Skyline.InternTrainingApp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Common.Tests.Unit", "Skyline.InternTrainingApp.Common.Tests.Unit\Skyline.InternTrainingApp.Common.Tests.Unit.csproj", "{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.UI.Web.Tests.Unit", "Skyline.InternTrainingApp.UI.Web.Tests.Unit\Skyline.InternTrainingApp.UI.Web.Tests.Unit.csproj", "{44A4E914-033B-41F6-967F-7172BD768990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.InternTrainingApp.Data.Tests.Integration", "Skyline.InternTrainingApp.Data.Tests.Integration\Skyline.InternTrainingApp.Data.Tests.Integration.csproj", "{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Skyline.InternTrainingApp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EDBB85-100D-4205-9C60-7454F761CBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EDBB85-100D-4205-9C60-7454F761CBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EDBB85-100D-4205-9C60-7454F761CBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EDBB85-100D-4205-9C60-7454F761CBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AC89D2-7095-463F-A55C-9B422B765C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AC89D2-7095-463F-A55C-9B422B765C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AC89D2-7095-463F-A55C-9B422B765C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AC89D2-7095-463F-A55C-9B422B765C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD39041E-1682-406A-853C-672FBD39BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD39041E-1682-406A-853C-672FBD39BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD39041E-1682-406A-853C-672FBD39BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD39041E-1682-406A-853C-672FBD39BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915116F4-CBD5-4087-BA16-880233396B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915116F4-CBD5-4087-BA16-880233396B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915116F4-CBD5-4087-BA16-880233396B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915116F4-CBD5-4087-BA16-880233396B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAD85D4-747C-433E-BD98-C75A08C42A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAD85D4-747C-433E-BD98-C75A08C42A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAD85D4-747C-433E-BD98-C75A08C42A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAD85D4-747C-433E-BD98-C75A08C42A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A4E914-033B-41F6-967F-7172BD768990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A4E914-033B-41F6-967F-7172BD768990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A4E914-033B-41F6-967F-7172BD768990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A4E914-033B-41F6-967F-7172BD768990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9030B52-2D0A-4AAD-B966-0A4F26494D14} = {92EBDE57-ABD6-4CA3-B187-5410743277D1}
+		{DB2B984D-E2D3-40E4-8126-65AD84820B97} = {92EBDE57-ABD6-4CA3-B187-5410743277D1}
+		{4DAD85D4-747C-433E-BD98-C75A08C42A40} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
+		{7E0F0FEB-343C-4CA2-A5C8-29FE3570EFC3} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
+		{2EC8D060-99CC-4EBD-BB1A-7AC43A38DE95} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
+		{44A4E914-033B-41F6-967F-7172BD768990} = {E9030B52-2D0A-4AAD-B966-0A4F26494D14}
+		{6AEEB7C0-E6A5-4EFF-B956-48CBEDB75656} = {DB2B984D-E2D3-40E4-8126-65AD84820B97}
+	EndGlobalSection
+EndGlobal
