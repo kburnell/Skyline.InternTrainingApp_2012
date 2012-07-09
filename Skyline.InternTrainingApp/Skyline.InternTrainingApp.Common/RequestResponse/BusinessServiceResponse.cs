@@ -10,6 +10,11 @@ namespace Skyline.InternTrainingApp.Common.RequestResponse {
     /// </summary>
     public class BusinessServiceResponse {
 
+        public BusinessServiceResponse() {
+            ApplicationErrors = new List<string>();
+            ValidationInformation = new List<ValidationResult>();
+        }
+
         /// <summary>
         ///   Error
         /// </summary>

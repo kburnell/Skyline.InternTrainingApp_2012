@@ -2,5 +2,7 @@
 
 namespace Skyline.InternTrainingApp.Common.Interfaces.Data {
 
-    public interface IMovieRepository : IRepository<Movie> {}
+    public interface IMovieRepository : IRepository<Movie> {
+        Movie GetByTitle(string title);
+    }
 }

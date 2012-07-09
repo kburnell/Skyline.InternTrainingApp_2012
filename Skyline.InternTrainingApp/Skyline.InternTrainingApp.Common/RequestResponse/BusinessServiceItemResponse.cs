@@ -6,5 +6,7 @@
         ///   Item
         /// </summary>
         public T Item { get; set; }
+
+        public bool HasData { get { return Item != null; } }
     }
 }

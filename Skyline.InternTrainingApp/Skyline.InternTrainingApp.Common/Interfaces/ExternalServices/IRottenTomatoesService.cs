@@ -1,6 +1,9 @@
-﻿namespace Skyline.InternTrainingApp.Common.Interfaces.ExternalServices {
+﻿using Skyline.InternTrainingApp.Common.Domain;
+using Skyline.InternTrainingApp.Common.RequestResponse;
+
+namespace Skyline.InternTrainingApp.Common.Interfaces.ExternalServices {
 
     public interface IRottenTomatoesService {
-        void GetByTitle(string title);
+        BusinessServiceItemResponse<Movie> GetByTitle(string title);
     }
 }

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.7\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -45,10 +48,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ITA.Common.Enumerations\ITA.Common.Enumerations.csproj">
+      <Project>{4E64ADD8-D09C-4861-B356-28CE1FA57FB0}</Project>
+      <Name>ITA.Common.Enumerations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
+      <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
+      <Name>Skyline.InternTrainingApp.Common.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj">
       <Project>{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}</Project>
       <Name>Skyline.InternTrainingApp.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -34,6 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Should">
+      <HintPath>..\packages\Should.1.1.12.0\lib\Should.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -49,6 +52,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Skyline.InternTrainingApp.Common.Domain\Skyline.InternTrainingApp.Common.Domain.csproj">
+      <Project>{915116F4-CBD5-4087-BA16-880233396B60}</Project>
+      <Name>Skyline.InternTrainingApp.Common.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Skyline.InternTrainingApp.Common\Skyline.InternTrainingApp.Common.csproj">
       <Project>{487D19E5-7CC0-4BD6-A78D-1FFE8505A1AE}</Project>
       <Name>Skyline.InternTrainingApp.Common</Name>
@@ -57,6 +64,9 @@
       <Project>{77E56F48-65D4-4D6A-91C8-A07A6B73599D}</Project>
       <Name>Skyline.InternTrainingApp.ExternalServices</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
